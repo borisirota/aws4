@@ -38,6 +38,7 @@ var HEADERS_TO_IGNORE = {
   'expect': true,
   'presigned-expires': true,
   'range': true,
+  'x-amz-content-sha256': true
 }
 
 // request: { path | body, [host], [method], [headers], [service], [region] }
